@@ -10,6 +10,7 @@
  *******************************************************************************/
 package tycho.demo.itp;
 
+import java.util.Map;
 import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
 import org.eclipse.swt.widgets.Display;
@@ -23,7 +24,7 @@ public class Application implements IApplication {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see org.eclipse.equinox.app.IApplication#start(org.eclipse.equinox.app.IApplicationContext)
      */
     public Object start(IApplicationContext context) throws Exception {
@@ -42,7 +43,7 @@ public class Application implements IApplication {
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see org.eclipse.equinox.app.IApplication#stop()
      */
     public void stop() {

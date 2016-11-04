@@ -11,4 +11,19 @@
   <artifactId>tycho.demo.itp01</artifactId>
   <packaging>eclipse-plugin</packaging>
 
+<build>
+  <plugins>
+         <plugin>
+           <groupId>org.eclipse.tycho</groupId>
+           <artifactId>tycho-compiler-plugin</artifactId>
+           <version>${tycho-version}</version>
+           <configuration>
+              <useProjectSettings>true</useProjectSettings>
+              <compilerArgs>
+                <arg>-nowarn:[${project.basedir}/src]</arg>
+              </compilerArgs>
+           </configuration>
+         </plugin>
+       </plugins>
+     </build>
 </project>
