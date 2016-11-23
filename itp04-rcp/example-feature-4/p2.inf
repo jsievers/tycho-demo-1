@@ -1,0 +1,1 @@
+update.matchExp=providedCapabilities.exists(pc | pc.namespace \=\= 'org.eclipse.equinox.p2.iu' && (pc.name \=\= 'example-feature-2.feature.group' || pc.name \=\= 'example-feature-3.feature.group' || pc.name \=\= 'example-feature-4.feature.group' && pc.version < '$version$'))

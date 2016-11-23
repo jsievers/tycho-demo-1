@@ -6,6 +6,14 @@
    <feature url="features/example-feature-2_0.2.0.qualifier.jar" id="example-feature-2" version="0.2.0.qualifier">
       <category name="install_feature2_category"/>
    </feature>
+
+   <feature url="features/example-feature-3_0.2.0.qualifier.jar" id="example-feature-3" version="0.2.0.qualifier">
+      <category name="install_feature2_category"/>
+   </feature>
+
+   <feature url="features/example-feature-4_0.2.0.qualifier.jar" id="example-feature-4" version="0.2.0.qualifier">
+      <category name="install_feature2_category"/>
+   </feature>
    <category-def name="example_category_id" label="Example Category">
       <description>
          Description of example category
